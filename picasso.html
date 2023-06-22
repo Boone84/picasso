@@ -6,17 +6,32 @@
     <title>Form Demo</title>
     <link rel="stylesheet" href="external.css">
 </head>
-<body>
-        <section>
-            <h2></h2>
-            <form>
-                <label for="fname">First Name</label><br>
-                <input id="nameInput"  type="text" name="fname" /><br />
-                <label for="lname" >type="text" name="lname" </label><br />
-                <input id="nameInput" type="text" name="lname" /><br />   
 
+<header class="navbar"> 
+    <nav class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Contact</a></li>
+    </nav>
+</header>
+
+<body>
+    <section class="img1">
+        <img src="photos\art.jpg" alt="art.png">
+           
+            <form>
+                <p class="form-title">Enter your info to subscribe to our "not annoying" Newsletter...</p>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="Email"><br>
+                <input type="submit" value="Submit"><br>
             </form>
-        </section>
+            
+
+    </section>
     
 </body>
 </html>

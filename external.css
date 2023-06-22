@@ -1,0 +1,64 @@
+
+
+
+.img1{
+    z-index: -1;
+    background-position: center;
+    top: 100;
+    max-height: 40px;
+    margin-top: 40px;
+    
+}
+.navbar {
+    position: fixed;
+    top: 5px;
+    width: 100%;
+    height: 100px;
+    margin-left: 5px;
+}
+
+.navbar li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:0px;
+	border:.5px solid black;    
+}
+
+.navbar a {
+	display:grid;
+	text-decoration:none;
+	background-color: white;
+	color:black;
+    text-align: center;
+}
+
+.navbar a:hover {
+	background-color:rgb(155, 39, 39);
+	color:white;
+}
+
+form {
+    position: absolute;
+    left: 40%;
+    top: 20px;
+    width: 500px;
+    background-color: white;
+    padding: 5px;
+    border: 5px solid;  
+    border-color: darkgray;
+    border-radius: 5px;
+    margin-top: 200px;      
+}
+
+form input{
+    margin: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    nav {
+      grid-template-columns: 100%;
+      grid-template-rows: auto;
+      grid-gap: 1em;
+   }
+}
